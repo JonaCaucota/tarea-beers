@@ -9,8 +9,10 @@ function App() {
         <h1>Your Best Value Proposition</h1>
         <h2>“If you don’t try this app, you won’t become the superhero you were meant to be”</h2>
       </header>
-
-      <BeerList></BeerList>
+      <main>
+        <BeerList></BeerList>
+        </main>
+      
     </div>
 
 

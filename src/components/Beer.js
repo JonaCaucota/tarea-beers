@@ -4,13 +4,13 @@ function Beer(props) {
 
 
   return (
-    <li>
+    <li className="card-container">
       <div>
-        <div>
+        <div className="card-img">
             <img src={props.label}></img>
         </div>
 
-        <div>
+        <div className="card-text">
             <h3>{props.name}</h3>
             <h4>{props.type}</h4>
             <h5>{props.abv}</h5>
