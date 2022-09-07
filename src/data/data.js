@@ -1,3 +1,4 @@
+
 const beers = [
     {
         name: "Purple Iris",
@@ -35,3 +36,5 @@ const beers = [
         type: "Wheat",
     },
 ];
+
+export default beers;

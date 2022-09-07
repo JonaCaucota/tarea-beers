@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import BeerList from './components/Beers-list';
 
 function App() {
   return (
@@ -8,7 +9,11 @@ function App() {
         <h1>Your Best Value Proposition</h1>
         <h2>“If you don’t try this app, you won’t become the superhero you were meant to be”</h2>
       </header>
+
+      <BeerList></BeerList>
     </div>
+
+
   );
 }
 
